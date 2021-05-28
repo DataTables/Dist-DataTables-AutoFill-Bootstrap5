@@ -1,0 +1,15 @@
+{
+    "js": [
+        "js/autoFill.bootstrap5.js",
+        "js/autoFill.bootstrap5.min.js"
+    ],
+    "css": [
+        "css/autoFill.bootstrap5.css",
+        "css/autoFill.bootstrap5.min.css"
+    ],
+    "types": [
+        "types/autoFill.bootstrap5.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/AutoFill",
+    "last-tag": "2.3.6"
+}
