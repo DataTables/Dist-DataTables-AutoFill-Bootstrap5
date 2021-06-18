@@ -4,7 +4,7 @@
     "main": "js/autoFill.bootstrap5.js",
     "style": "css/autoFill.bootstrap5.css",
     "types": "./types/autoFill.bootstrap5.d.ts",
-    "version": "2.3.8",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": ">=2.3.8",
-        "datatables.net-bs5": ">=1.10.26-dev",
+        "datatables.net-autofill": ">=2.3.7",
+        "datatables.net-bs5": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
