@@ -4,16 +4,16 @@
     "main": "js/autoFill.bootstrap5.js",
     "style": "css/autoFill.bootstrap5.css",
     "types": "./types/autoFill.bootstrap5.d.ts",
-    "version": "2.3.8",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
+ "Excel",
         "Bootstrap",
-        "Bootstrap5",
+ "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
