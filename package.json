@@ -5,7 +5,7 @@
     "module": "js/autoFill.bootstrap5.mjs",
     "style": "css/autoFill.bootstrap5.css",
     "types": "./types/types.d.ts",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "AutoFill",
- "Excel",
+        "Excel",
         "Bootstrap",
- "Bootstrap5",
+        "Bootstrap5",
         "Datatables",
         "jQuery",
         "table",
