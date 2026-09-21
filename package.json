@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-autofill-bs5",
     "description": "AutoFill for DataTables with styling for [Bootstrap5](https://getbootstrap.com/)",
-    "main": "js/autoFill.bootstrap5.js",
-    "module": "js/autoFill.bootstrap5.mjs",
-    "style": "css/autoFill.bootstrap5.css",
+    "main": "./js/autoFill.bootstrap5.js",
+    "module": "./js/autoFill.bootstrap5.mjs",
+    "style": "./css/autoFill.bootstrap5.css",
     "types": "./types/autoFill.bootstrap5.d.ts",
     "version": "3.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "AutoFill",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/AutoFill.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/autoFill.bootstrap5.d.ts",
+            "import": "./js/autoFill.bootstrap5.mjs",
+            "default": "./js/autoFill.bootstrap5.mjs",
+            "require": "./js/autoFill.bootstrap5.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/autoFill.bootstrap5.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
