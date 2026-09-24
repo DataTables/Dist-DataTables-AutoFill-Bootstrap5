@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/autoFill.bootstrap5.d.ts",
+            "style": "./css/autoFill.bootstrap5.css",
             "import": "./js/autoFill.bootstrap5.mjs",
-            "default": "./js/autoFill.bootstrap5.mjs",
-            "require": "./js/autoFill.bootstrap5.js"
+            "require": "./js/autoFill.bootstrap5.js",
+            "default": "./js/autoFill.bootstrap5.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
